@@ -116,7 +116,7 @@ int main(void) {
   struct RecordType *pRecords;
   int recordSz = 0;
 
-  recordSz = parseData("input.txt", &pRecords);
+  recordSz = parseData("input_lab_9.txt", &pRecords);
   printRecords(pRecords, recordSz);
 
   // Create a hash table
